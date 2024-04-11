@@ -1,4 +1,7 @@
 public class catalogo {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("Bienvenido a Screen Match");
         System.out.println("Pelicula Matrix");
@@ -20,6 +23,8 @@ public class catalogo {
                 peliculas de la ciecia ficcion lanzada en:
                 """ + fechaDeLanzamiento;
         System.out.println(sinopsis);
-
+        /* convertir a otoro tipo de dato */
+        int clasificacion = (int) (media / 2);
+        System.out.println(clasificacion);
     }
 }
