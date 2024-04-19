@@ -1,3 +1,4 @@
+package PrimerPrograma;
 import java.util.Scanner;
 
 public class evaluaciones {

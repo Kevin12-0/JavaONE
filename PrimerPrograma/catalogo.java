@@ -1,3 +1,4 @@
+package PrimerPrograma;
 public class catalogo {
     /**
      * @param args

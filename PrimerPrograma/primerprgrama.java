@@ -1,3 +1,4 @@
+package PrimerPrograma;
 public class primerprgrama {
 
     public static void main(String[] args) {
