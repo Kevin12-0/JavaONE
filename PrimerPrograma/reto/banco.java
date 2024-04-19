@@ -20,14 +20,14 @@ public class banco {
                         3. Abonar Efectivo
                         4. Salir
                     """);
-                    /* leer la opcion seleccionada */
+            /* leer la opcion seleccionada */
             option = read.nextByte();
             if (option == 1) {
                 System.out.println("Tu saldo es de: $" + saldo + "\n");
             } else if (option == 2) {
                 System.out.println("Cuanto dinero, desea retirar:");
                 cantidad = read.nextDouble();
-                /* si el saldo es menor  */
+                /* si el saldo es menor */
                 if (cantidad > saldo) {
                     System.out.println("Saldo insuficiente");
                 } else {
@@ -39,6 +39,7 @@ public class banco {
             } else if (option == 3) {
                 System.out.println("Ingrese la cantidad a depositar: ");
                 cantidad = read.nextDouble();
+                /* si la cantidad es meñor que cerro, manda la exepcion */
                 if (cantidad <= 0) {
                     System.out.println("Cantidad Incorrecta, intente de nuevo");
                 } else {
@@ -47,6 +48,8 @@ public class banco {
                 }
             } else if (option == 4) {
                 System.out.println("Hasta luego");
+                /* rompe el ciclo */
+
                 break;
             }
         }
